@@ -1,6 +1,6 @@
 # About me
 
-![headshot](20200920_225444_1)
+![headshot](20200920_225444_1.png)
 
 # stock_project
 
