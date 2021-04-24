@@ -1,5 +1,8 @@
 # stock_project
 
+[2020_plot.png]
+
+
 # Purpose:
 The aim of this program is to generate a investment strategy, using a combination of classical statistics and machine learning.
 Once every weekday a user should close all their open positions and rebuild their portfolio according to the recommendation. This can be done either manually or automatically, using the Alpaca API (see https://alpaca.markets/). The functionality to do so is included in the program.
