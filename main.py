@@ -31,20 +31,6 @@ import json
 import playsound
 
 if __name__ == "__main__":
-    # initialize.initialize(date.today() - datetime.timedelta(days=365), date.today(), simulation=True, update=True)
-
-    # precompute the ensemble estimators
-
-    # current = date(2021, 1, 20)
-    # while current < date(2021, 3, 25):
-    #     if current.weekday() >= 5:
-    #         current = current + datetime.timedelta(days=1)
-    #         continue
-    #     print(f'{current} ############################')
-    #     initialize.initialize(current - datetime.timedelta(days=365), current, simulation=True, update=False)
-    #     current = current + datetime.timedelta(days=1)
-    #
-    # # data available one year back from this date
     long_term = True
     today = date.today()
 
