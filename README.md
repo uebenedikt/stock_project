@@ -8,10 +8,14 @@ Once every weekday a user should close all their open positions and rebuild thei
 ## Results:
 After some preprocessing on the previous day, a recommendation can be generated within 10 to 15 minutes.
 Annual growth factor:
+
 2013: 1.58
+
 2020: 4.12
+
 2021: 1.53
-(To explain the differences: Hyperparameters (not just in the ML models, e.g. the way the strategy is chosen) were tuned to optimize the behaviour for 2020. Old data has worse quality than recent data: of the 2000 stocks analyzed for 2020 only 1000 have sufficient data for 2013.)
+
+(To explain the differences: Hyperparameters (not just in the ML models, e.g. the way the strategy is chosen) were tuned to optimize the behaviour for 2020. Furthermore, old data has worse quality than recent data: of the 2000 stocks analyzed for 2020 only 1000 have sufficient data for 2013.)
 
 
 ## How it works:
