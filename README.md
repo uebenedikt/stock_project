@@ -33,4 +33,4 @@ The last plot above provides a comparison between the bot decisions, and randoml
 The plot above shows results from an earlier version of the program.
 
 ## Challenges
-I'm currently working on a way to reduce the huge drop that happens in 2014-2015. The suspected reason for this undesired behaviour are undetected stock splits, which lead to wrong stock prices. Notice for example in the 2013-2015 plot, how sometimes the random strategies just randomly spike.
+I'm currently working on a way to reduce the huge drop that happens in 2014-2015. The suspected reason for this undesired behaviour are undetected share splits, which lead to wrong share prices (ie 10 shares become 1 share with 10x the value). Notice for example in the 2013-2015 plot, how sometimes the random strategies just randomly spike. This might have a huge impact on the ensemble estimator.
