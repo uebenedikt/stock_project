@@ -21,6 +21,16 @@ The code is meant as a sample, and I removed certain parts and files. It is not 
 
 
 ## Plots/Results
-![Plot](2013_plot.png)
-![Plot](2020_plot.png)
-![Plot](2021_plot.png)
+The 20XX_summary.txt files give a detailed summary of all trade outcomes for that year.
+
+![Plot](2013.png)
+![Plot](2014.png)
+![Plot](2015.png)
+![Plot](2013-2015.png)
+The last plot above provides a comparison between the bot decisions, and randomly selecting and buying stocks as a baseline. It also introduces three new bot variants, which simply reject some of the decisions of the main bot, for example, if it didn't grow in the last 5 days.
+
+![Plot](2020-2021.png)
+The plot above shows results from an earlier version of the program.
+
+## Challenges
+I'm currently working on a way to reduce the huge drop that happens in 2014-2015. The suspected reason for this undesired behaviour are undetected stock splits, which lead to wrong stock prices. Notice for example in the 2013-2015 plot, how sometimes the random strategies just randomly spike.
